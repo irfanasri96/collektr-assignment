@@ -34,5 +34,18 @@
     email: test@example.com
     password: test123
     ```
-8. **Run test**
+8. **Added testing enviroment**
+    - Run `cp .env.example .env.testing`.
+    - Change the value for `APP_ENV=testing`
+    - Change the settings for database:
+    ``` 
+    DB_CONNECTION=mysql
+    DB_HOST=
+    DB_PORT=
+    DB_DATABASE=
+    DB_USERNAME=
+    DB_PASSWORD=
+    ```
+
+9. **Run test**
     - Run `php artisan test`
