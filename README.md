@@ -30,7 +30,8 @@
     - Run `php artisan optimize`.
 
 7. **Test login to the application**
-    - ``` 
+    - Login test credentials
+    ``` 
     email: test@example.com
     password: test123
     ```
