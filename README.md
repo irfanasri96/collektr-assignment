@@ -1,4 +1,4 @@
-## Product API
+## Product Management API
 
 ### Steps to setup local environment
 
