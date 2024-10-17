@@ -3,7 +3,7 @@
 ### Steps to setup local environment
 
 1. **Clone this project**
-    - Run `git clone http://10.8.51.97:8081/app-repo/app1-form.git`.
+    - Run `git clone https://github.com/irfanasri96/collektr-assignment.git`.
 
 2. **Install package**
     - Run `composer install` to install composer package.
