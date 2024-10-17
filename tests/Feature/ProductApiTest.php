@@ -6,11 +6,12 @@ use App\Models\Product;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Laravel\Sanctum\Sanctum;
+use Tests\CreatesApplication;
 use Tests\TestCase;
 
 class ProductApiTest extends TestCase
 {
-    use RefreshDatabase;
+    use CreatesApplication, RefreshDatabase;
 
     /**
      * Test unauthenticated user cannot access product routes.
